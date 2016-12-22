@@ -1,0 +1,29 @@
+# If you want some help with snippets, check out:
+# http://flight-manual.atom.io/using-atom/sections/snippets/
+# If you want some example snippets, check out:
+# https://github.com/atom/language-gfm/blob/master/snippets/gfm.cson
+'.netlinx':
+  'Push':
+    'prefix': 'nl.p'
+    'body': '''
+      BUTTON_EVENT[${1:dvPnls1a},${2:1001}]  // $3
+      {
+        PUSH :
+        {
+          ${4:STACK_VAR INTEGER nPnlIdx\n    nPnlIdx = GET_LAST(dvPnls1a)}$5
+        }
+      }
+      '''
+  'Push/Release':
+    'prefix': 'nl.pr'
+    'body': '''
+      BUTTON_EVENT[${1:dvPnls1a},${2:1001}]  // $3
+      {
+        {
+          ${4:STACK_VAR INTEGER nPnlIdx\n    nPnlIdx = GET_LAST(dvPnls1a)}$5
+        }
+        RELEASE :
+        {
+        }
+      }
+      '''

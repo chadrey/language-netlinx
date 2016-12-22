@@ -1,0 +1,23 @@
+{
+  "name": "language-netlinx",
+  "version": "0.0.0",
+  "description": "AMX NetLinx language support in Atom",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "keywords": [
+    "netlinx",
+    "language",
+    "grammar",
+    "syntax"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chadrey/language-netlinx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chadrey/language-netlinx/issues"
+  },
+  "license": "MIT"
+}
